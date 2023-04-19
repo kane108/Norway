@@ -5,5 +5,379 @@
     padding: 0;
 }
 body{
-    font-family: 'Source Sans Pro', sans-serif;x`
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 4;
+}
+.logo{
+    margin-left: -45%;
+    width: 50%;
+}
+nav a{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    -webkit-text-stroke: 0.7px black;
+}
+nav{
+    margin-right: -10%;
+}
+
+
+
+.hero{
+    height: 100vh;
+    background-color: black;
+    background-image: url(images/norwayhome.jpg);
+    background-size: cover;
+}
+.hero h3{
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+}
+.hero h1{
+    color: yellow;
+    font-weight: 900;
+    font-size: 170px;
+    margin-top: -3%;
+    margin-left: -0.7%;
+    position: absolute;
+    z-index: 2;
+}
+.hero span{
+    color: white;
+}
+.hero p{
+    color: white;
+    font-weight: 400;
+    margin-top: 10%;
+}
+.heroletter{
+    padding-top: 17%;
+    margin-left: 8%;
+}
+
+.heroa{
+    color: white;
+    margin-left: 5%;
+    margin-top: 13%;
+}
+.heroa a{
+    color: white;
+    margin-left: 1%;
+}
+.bergen{
+    width: 20%;
+    height: 35%;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    left: 47%;
+    z-index: 1;
+}
+.oslo{
+    width: 18%;
+    height: 38%;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    border-radius: 15px;
+    z-index: 1;
+}
+.trondheim{
+    width: 20%;
+    height: 45%;
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    z-index: 0;
+    border-radius: 15px;
+}
+
+
+.tours{
+    height: 100vh;
+    background-color: black;
+}
+.tours img{
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.173);
+    border-radius: 5px;
+}
+.tours h3{
+    color: white;
+
+}
+.tours p{
+    color: white;
+    font-size: 20px;
+}
+.tours h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 2%;
+}
+.oslodiv{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url(pages/images/oslobg.png);
+    background-size: cover;
+}
+.oslotext{
+    margin-top: 10%;
+}
+.oslotext h3{
+    color: white;
+    font-size: 40px;
+}
+.oslotext p{
+    color: white;
+    font-size: 20px;
+}
+.osloimg h3{
+    color: white;
+}
+.osloimg{
+    margin-top: 10%;
+}
+.museum img{
+    width: 35%;
+    position: absolute;
+}
+.museum{
+    margin-left: -280%;
+
+}
+.fjord img{
+    width: 30%;
+    position: absolute;
+}
+.fjord{
+    margin-left: -700%;
+    margin-top: 200%;
+}
+
+
+.bergendiv{
+    height: 100vh;
+    background-color :green;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(pages/images/bergenbg.png);
+    background-size: cover;
+}
+.fanfoftimg{
+    margin-top: 5%;
+}
+.brygenimg{
+    margin-top: 205%;
+    margin-left: 150%;
+}
+.fanfoftimg img{
+    width: 30%;
+    position: absolute;
+}
+.brygenimg img{
+    position: absolute;
+    width: 40%;
+}
+.bergentext{
+    margin-top: 1%;
+}
+.bergentext h3{
+    font-size: 40px;
+}
+
+
+.tromsodiv{
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(pages/images/tromsobg.png);
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+}
+.articcathimg img{
+    position: absolute;
+    width: 30%;
+}
+.jelheisenimg img{
+    position: absolute;
+    width: 30%;
+}
+.articcathimg{
+    margin-left: -200%;
+    margin-top: 15%;
+}
+.jelheisenimg{
+    margin-left: -200%;
+    margin-top: 200%;
+}
+.tromsotext{
+    margin-top: 10%;
+}
+.tromsotext h3{
+    font-size: 40px;
+}
+
+
+.trondheimdiv{
+    height: 100vh;
+    background-color: brown;
+    background-image: url(pages/images/trondheimbg.png);
+    justify-content: space-around;
+    display: flex;
+    background-size: cover;
+}
+.trondheimtext h3{
+    font-size: 40px;
+}
+.trondheimtext{
+    margin-top: 15%;
+}
+.rockheimimg img{
+    width: 35%;
+    position: absolute;
+}
+.oldtownimg img{
+    width: 35%;
+    position: absolute;
+}
+.rockheimimg{
+    margin-top: 25%;
+}
+.oldtownimg{
+    margin-top: 205%;
+}
+
+
+.about{
+    height: 95vh;
+    background-color: rgb(0, 6, 37);
+    background-image: url(pages/images/aboutbg.png);
+    background-size: cover;
+}
+.about h1{
+    text-align: center;
+    padding-top: 8%;
+    color: black;
+    -webkit-text-stroke: 1px white;
+    font-size: 40px;
+}
+.about p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.4px rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 1%;
+}
+
+
+.contact{
+    height: 95vh;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(pages/images/contactbg.jpg);
+    background-size: cover;
+}
+form input{
+    display: block;
+    height: 8%;
+    width: 250%;
+    border: 1px solid rgba(0, 0, 0, 0.655);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+}
+.contacttext{
+    margin-top: 15%;
+} 
+.contacttext p{
+    margin-top: 2%;
+    color: white;
+}
+.contacttext h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+form{
+    margin-top: 15%;
+    margin-left: -25%;
+}
+form span{
+    color: red;
+}
+.inputmsg{
+    height: 50%;
+}
+form button{
+    border: 1px solid rgba(0, 0, 0, 0.655);
+    background-color: rgba(0, 0, 0, 0.716);
+    margin-left: 100%;
+    margin-top: 25%;
+    padding: 5% 15%;
+    border-radius: 7px;
+    color: white;
+}
+form label{
+    color: white;
+}
+footer{
+    height: 5vh;
+    background-color: black;
+}
+footer h6{
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+.tourfoot{
+    height: 5vh;
+    background-color: black;
+    margin-top: 300vh;
+}
+.tourfoot h6{
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+
+button{
+    transition: color, 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    color: yellow;
+    font-size: 15px;
+}
+nav a{
+    transition: color, 0.5s;
+}
+nav a:hover{
+    color: yellow;
+    font-size: 25px;
+}
+.heroa a:hover{
+    color: yellow;
+    font-size: 20px;
+}
+.heroa a{
+    transition: color, 0.5s;
 }
