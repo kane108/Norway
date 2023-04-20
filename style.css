@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
@@ -35,7 +36,45 @@ nav a{
 nav{
     margin-right: -10%;
 }
-
+nav i{
+    display: none;
+    -webkit-text-stroke: black 0.5px;
+    font-weight: 700;
+}
+#menu {
+    display: none;
+    position: absolute;
+    top: 70%;
+    right: 0%;
+    z-index: 1;
+    background-color: rgba(8, 0, 26, 0.64);
+    padding-right: 5%;
+    width: 30vw;
+    border: 1px solid rgba(0, 0, 0, 0.383);
+  }
+  
+  #menu li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    -webkit-text-stroke: black;
+  }
+  
+  #menu li a:hover {
+    background-color: #f2f2f2;
+  }
+  nav button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
 
 
 .hero{
@@ -380,4 +419,280 @@ nav a:hover{
 }
 .heroa a{
     transition: color, 0.5s;
+}
+
+@media(max-width:1380px){
+    .hero p{
+        margin-top: 15%;
+    }
+}
+@media(max-width:1300px){
+    .oslotext{
+        text-align: ;
+    }
+    .museum{
+        margin-top: 275%;
+    }
+    .fjord{
+        margin-top: -20%;
+    }
+
+    .fanfoftimg{
+        margin-top: 255%;
+    }
+    .brygenimg{
+        margin-top: -20%;
+        margin-left: 305%;
+    }
+
+    .tromsotext{
+        margin-top: 2%;
+    }
+    .jelheisenimg{
+        margin-left: -450%;
+        margin-top: -15%;
+    }
+    .articcathimg{
+        margin-top: 280%;
+    }
+
+    .trondheimtext{
+        margin-top: 2%;
+    }
+    .rockheimimg{
+        margin-top: 280%;
+    }
+    .oldtownimg{
+        margin-top: -50%;
+        margin-left: 415%;
+    }
+}
+@media(max-width:1200px){
+    .contact{
+        justify-content: unset;
+    }
+    .contacttext{
+        margin-left: 20%;
+        margin-top: -0.0%;
+    }
+}
+@media(max-width:1023px){
+    nav a{
+        display: none;
+    }
+    nav i{
+        display: flex;
+        font-size: 40px;
+        color: white;
+        margin-left: 100%;
+    }
+
+    .hero h1{
+        font-size: 100px;
+    }
+    .hero p{
+        z-index: 2;
+        position: absolute;
+    }
+
+    .hero img{
+        width: 35%;
+        height: auto;
+    }
+    .trondheim{
+        margin-left: -15%;
+        margin-top: 5%;
+    }
+    .bergen{
+        margin-left: 3%;
+        margin-top: -12%;
+    }
+    .oslo{
+        margin-top: 7%;
+    }
+
+    .heroa{
+        margin-top: 35%;
+    }
+
+
+    .fjord{
+        margin-left: -580%;
+    }
+
+
+    .brygenimg{
+        margin-left: 250%;
+    }
+
+    .tromsoimg{
+        margin-left: 50%;
+        margin-top: 30%;
+    }
+
+    .oldtownimg{
+        margin-left: 300%;
+    }
+}
+@media(max-width:900px){
+    .tromsotext p{
+        font-size: 18px;
+    }
+}
+@media(max-width:870px){
+    .fjord{
+        margin-left: -500%;
+    }
+
+
+    form{
+        margin-left: -50%;
+    }
+}
+@media(max-width:767px){
+    .logo{
+        margin-left: 2%;
+    }
+    nav i{
+        margin-left: -150%;
+    }
+
+
+    .bergen{
+        margin-left: 16%;
+    }
+    .oslo{
+        margin-left: 14%;
+    }
+    .trondheim{
+        margin-left: 0.0000001%;
+    }
+    
+
+    
+    .osloimg{
+        margin-left: 25%;
+        margin-top: 25%;
+    }
+
+
+    .about p{
+        font-size: 22px;
+    }
+    
+
+    .brygenimg{
+        margin-left:200%;
+    }
+
+    .tromsoimg{
+        margin-top: 50%;
+    }
+}
+@media(max-width:700px){
+    .osloimg{
+        margin-top: 45%;
+    }
+    .oslotext{
+        margin-left: 5%;
+    }
+    .museum{
+        margin-left: -200%;
+    }
+}
+@media(max-width:650px){
+    .contacttext{
+        margin-top: 10%;
+        margin-left: -0.0%;
+    }
+    form{
+        margin-top: 30%;
+        margin-left: -70%;
+        align-items: start;
+        text-align: left;
+    }
+
+    .fanfoftimg{
+        margin-left: 15%;
+        margin-top: 245%;
+    }
+    .brygenimg{
+        margin-left: 170%;
+    }
+    .bergentext{
+        margin-left: -50%;
+    }
+
+    .jelheisenimg{
+        margin-left: -200%;
+        margin-top: -300%;
+    }
+}
+@media(max-width:500px){  
+    .hero h3{
+        text-align: center;
+    }
+    .hero h1{
+        font-size: 80px;
+    }
+    .hero p{
+        margin-top: 20%;
+    }
+    .oslo{
+        display: none;
+    }
+    .trondheim{
+        margin-top: 70%;
+        margin-left: -51%;
+    }
+    .bergen{
+        margin-top: 40%;
+        margin-left: -33%;
+    }
+    .hero img{
+        width: 70%;
+    }
+    .heroa{
+        margin-top: 40%;
+    }
+
+    form{
+        margin-left: -60%;
+    }
+    .contacttext p{
+        font-size: 10px;
+    }
+
+    .osloimg{
+        margin-top: 80%;
+    }
+
+    .brygenimg{
+        margin-left: 120%;
+    }
+    .bergentext p{
+        font-size: 15px;
+    }
+    .trondheimimg{
+        margin-top: 20%;
+    }
+    .trondheimtext p{
+        font-size: 15px;
+    }
+    .oldtownimg{
+        margin-left: 200%;
+    }
+}
+@media(max-width:430px){
+    .osloimg{
+        margin-top: 95%;
+    }
+    .fjord{
+        margin-left: -400%;
+    }
+}
+@media(max-width:400px){
+    .osloimg{
+        margin-top: 110%;
+    }
 }
